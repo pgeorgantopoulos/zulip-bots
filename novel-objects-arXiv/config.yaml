@@ -1,0 +1,9 @@
+name: "novel-objects-arXiv"
+keywords:
+  - "novel_object"
+  - "6d object pose"
+run_once: true
+max_results_per_query: 25
+zulip_stream: "novel-objects"
+zulip_subject: "arXiv"
+sqlite_db: "seen_papers.db"

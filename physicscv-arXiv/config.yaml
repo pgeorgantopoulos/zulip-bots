@@ -1,0 +1,12 @@
+name: "physicscv-arXiv"
+keywords:
+  - "pinns"
+  - "computer vision"
+  - "physics informed"
+  - "neural operators"
+run_once: true
+# poll_interval_seconds: 86400        # 24 hours
+max_results_per_query: 25
+zulip_stream: "physics-cv"
+zulip_subject: "arXiv"
+sqlite_db: "seen_papers.db"
