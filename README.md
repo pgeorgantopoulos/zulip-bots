@@ -39,3 +39,12 @@ Take the output and append it to
 ```bash
 crontab -e
 ```
+
+## Future considerations
+
+Add bots for
+
+https://huggingface.co/docs/hub/en/api
+
+https://developers.zenodo.org/
+
