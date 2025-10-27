@@ -1,0 +1,18 @@
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel_object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 20 Οκτ 2025 10:10:04 πμ EEST
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Error: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)"))
+Zulip bots FAILED (exit code 1) at Δευ 27 Οκτ 2025 10:00:58 πμ EET
+Zulip bots executed successfully at Δευ 27 Οκτ 2025 10:12:56 πμ EET

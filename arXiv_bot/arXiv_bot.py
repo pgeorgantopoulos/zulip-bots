@@ -60,7 +60,7 @@ def fetch_arxiv_entries(keywords: List[str], max_results=25):
     url = ARXIV_API + "?" + urllib.parse.urlencode(params)
     # polite headers
     headers = {"User-Agent": "zulip-arxiv-bot/1.0 (mailto:your-email@example.com)"}
-    resp = requests.get(url, headers=headers, timeout=30)
+    resp = requests.get(url, headers=headers, timeout=120)
     resp.raise_for_status()
     feed = feedparser.parse(resp.text)
     return feed.entries
