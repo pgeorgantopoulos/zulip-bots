@@ -16,3 +16,136 @@ Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
 Error: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=30)"))
 Zulip bots FAILED (exit code 1) at Δευ 27 Οκτ 2025 10:00:58 πμ EET
 Zulip bots executed successfully at Δευ 27 Οκτ 2025 10:12:56 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 03 Νοε 2025 10:00:10 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 10 Νοε 2025 10:00:09 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Error: HTTPError('429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22novel+object%22+AND+all%3A%226d+object+pose%22&start=0&max_results=25&sortBy=lastUpdatedDate&sortOrder=descending')
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Error: HTTPError('429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22pinns%22+AND+all%3A%22computer+vision%22+AND+all%3A%22physics+informed%22+AND+all%3A%22neural+operators%22&start=0&max_results=25&sortBy=lastUpdatedDate&sortOrder=descending')
+Zulip bots FAILED (exit code 1) at Δευ 17 Νοε 2025 10:00:35 πμ EET\n
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Error: NameError("name 'post' is not defined")
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Error: NameError("name 'post' is not defined")
+Zulip bots FAILED (exit code 1) at Δευ 24 Νοε 2025 10:00:08 πμ EET\n
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Error: NameError("name 'post' is not defined")
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Error: NameError("name 'post' is not defined")
+Zulip bots FAILED (exit code 1) at Δευ 01 Δεκ 2025 10:00:07 πμ EET\n
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Error: HTTPError('429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22novel+object%22+AND+all%3A%226d+object+pose%22&start=0&max_results=25&sortBy=lastUpdatedDate&sortOrder=descending')
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Error: HTTPError('503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=all%3A%22pinns%22+AND+all%3A%22computer+vision%22+AND+all%3A%22physics+informed%22+AND+all%3A%22neural+operators%22&start=0&max_results=25&sortBy=lastUpdatedDate&sortOrder=descending')
+Zulip bots FAILED (exit code 1) at Δευ 08 Δεκ 2025 10:01:06 πμ EET\n
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 15 Δεκ 2025 10:00:12 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 22 Δεκ 2025 10:00:10 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 29 Δεκ 2025 10:00:06 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 05 Ιαν 2026 10:00:09 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 19 Ιαν 2026 10:00:08 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 26 Ιαν 2026 10:00:04 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Complete
+New: 0
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 02 Φεβ 2026 10:00:12 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Error: NameError("name 'post' is not defined")
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 09 Φεβ 2026 10:00:05 πμ EET
+Starting bot:  novel-objects-arXiv
+Keywords: ['novel object', '6d object pose']
+Error: NameError("name 'post' is not defined")
+Starting bot:  physicscv-arXiv
+Keywords: ['pinns', 'computer vision', 'physics informed', 'neural operators']
+Complete
+New: 0
+Zulip bots executed successfully at Δευ 16 Φεβ 2026 10:00:16 πμ EET
+Zulip bots executed successfully at Τρι 17 Φεβ 2026 12:20:33 μμ EET
+Zulip bots executed successfully at Τρι 17 Φεβ 2026 12:23:14 μμ EET
+Zulip bots executed successfully at Τρι 17 Φεβ 2026 12:27:56 μμ EET
+Zulip bots executed successfully at Τρι 17 Φεβ 2026 12:30:59 μμ EET
+Zulip bots executed successfully at Τρι 17 Φεβ 2026 12:37:25 μμ EET
+Zulip bots FAILED (exit code 1) at Τρι 17 Φεβ 2026 12:40:47 μμ EET\n
+Zulip bots FAILED (exit code 1) at Τρι 17 Φεβ 2026 12:42:00 μμ EET\n
+Zulip bots FAILED (exit code 1) at Τρι 17 Φεβ 2026 12:42:49 μμ EET\n

@@ -37,24 +37,36 @@ ARXIV_API = "http://export.arxiv.org/api/query"
 #        parts.append(f'all:"{kw_escaped}"')
 #    return " OR ".join(parts)
 
-def build_query(keywords: List[str], operator="AND", category=None):
+def build_query(keywords: List[str], operator="OR", categories: List[str] = None):
     """
-    combine keywords with given operator (AND/OR).
+    Combines keywords with keyword_op (AND/OR) 
+    and restricts them to the provided categories.
     """
-    parts = [f'all:"{kw.replace("\"", "")}"' for kw in keywords]
-    query = f" {operator} ".join(parts)
-    if category:
-        query = f"({query}) AND cat:{category}"
-    return query
+    # 1. Process Keywords: Join them with the operator (e.g., "kw1 OR kw2")
+    kw_parts = [f'all:"{kw.replace("\"", "")}"' for kw in keywords]
+    kw_query = f" {operator} ".join(kw_parts)
+    
+    # Wrap in parentheses to ensure the AND cat:... applies to the whole group
+    full_query = f"({kw_query})"
+
+    # 2. Process Categories: Join them with OR (e.g., "cat:cs.LG OR cat:cs.AI")
+    if categories:
+        cat_parts = [f'cat:{c.replace("\"", "")}' for c in categories]
+        cat_query = " OR ".join(cat_parts)
+        # Combine keywords and categories
+        full_query = f"{full_query} AND ({cat_query})"
+        
+    return full_query
 
 
 def fetch_arxiv_entries(keywords: List[str], max_results=25):
-    query = build_query(keywords)
+    query = build_query(keywords, operator="OR", categories=["cs.CV", "cs.LG", "stat.ML", "physics.comp-ph"])
     params = {
         "search_query": query,
         "start": 0,
         "max_results": max_results,
-        "sortBy": "lastUpdatedDate",
+        # "sortBy": "lastUpdatedDate",
+        "sortBy": "submittedDate",
         "sortOrder": "descending"
     }
     url = ARXIV_API + "?" + urllib.parse.urlencode(params)
@@ -151,7 +163,7 @@ def run_once(CONFIG_FILE, ZULIPRC_FILE, BOT_DIR):
             md, arxiv_id = format_entry_md(entry)
             if is_seen(db, arxiv_id):
                 continue
-            post
+            #post
             status = send_to_zulip(client, zulip_stream, zulip_subject, md)
             # status contains Zulip response
             if status.get("result") == "success":

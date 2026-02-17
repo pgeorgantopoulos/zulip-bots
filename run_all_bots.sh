@@ -8,7 +8,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 cd $SCRIPT_DIR
 
-/home/panos/.conda_envs/zulip-bots/bin/python $SCRIPT_DIR/run_bot.py --config_path $SCRIPT_DIR/novel-objects-arXiv
+# /home/panos/.conda_envs/zulip-bots/bin/python $SCRIPT_DIR/run_bot.py --config_path $SCRIPT_DIR/novel-objects-arXiv
 /home/panos/.conda_envs/zulip-bots/bin/python $SCRIPT_DIR/run_bot.py --config_path $SCRIPT_DIR/physicscv-arXiv
 
 # Capture exit status

@@ -2,7 +2,7 @@ name: "physicscv-arXiv"
 keywords:
   - "pinns"
   - "computer vision"
-  - "physics informed"
+  - "physics"
   - "neural operators"
 run_once: true
 # poll_interval_seconds: 86400        # 24 hours
